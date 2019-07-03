@@ -1,0 +1,80 @@
+########################################################################
+
+#
+# Pipeline pipeline_full_length_16S.py configuration file for sphinxreport
+#
+# This pipeline.ini file lists some configuration options that you might 
+# want a user to set automatically.
+#
+# Add pipeline specific options into separate sections
+#
+########################################################################
+## general options
+[general]
+
+# Project name
+projectname=wg001_full_length_16S	
+
+# Copyright statement
+copyright=jethro johnson
+
+# The short X.Y version.
+version=0.1
+
+# The full version, including alpha/beta/rc tags.
+release=0.1
+
+# directory for cgat scripts 
+scriptsdir=/home/johnsj/devel/cgat/cgat/scripts
+
+# essential cluster options
+mem=1gb
+
+walltime=04:00:00
+
+copy_environment=1
+
+########################################################################
+## location of data files
+[data]
+
+# location of the sequencing reads for the mock community analysis
+mock_fastq_dir=/data/smrtanalysis/smrtanalysis/userdata/jobs/017/017002/data
+
+# location of the fasta file containing reference sequences (assembled by Lei)
+mock_ref_db=/data/weinstocklab/projects/PBIL_fullLength16S/16S/raw/fastq/mock/db/mock36-16s.reduce.ed.fa
+
+# location of the output of Sai's pacBio processing pipeline
+cleaned_fasta=/data/weinstocklab/projects/PBIL_fullLength16S/analyses/mock/GW_fl16S_Mock/ccs_filter.fasta
+
+########################################################################
+## flexbar parameters
+[flexbar]
+
+tool=/data/slek/bin/flexbar
+
+# directory containing list of adapters to be removed (fasta format)
+forward_adapter=/data/weinstocklab/dsz/projects/pbil/database/primers/27F.fa
+
+reverse_adapter=/data/weinstocklab/dsz/projects/pbil/database/primers/1492R.fa
+
+########################################################################
+## additional filtering parameters
+[filter]
+
+# minimum length of retained sequence... reset to 1200
+min_length=1000
+
+# maximum length of retained sequence
+max_length=1600
+
+########################################################################
+## cross_match options
+[cross_match]
+
+# the number of files to divide fasta into
+subdivide=40
+
+# the parameters for different crossmatch runs. 
+# each parameter is ',' separated, each group of parameters is ';' separated
+parameter_options=-discrep_lists,-tags;-discrep_lists,-tags,-minscore 750,-masklevel 0

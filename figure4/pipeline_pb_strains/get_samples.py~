@@ -1,0 +1,18 @@
+#! /home/johnsj/devel/labscripts/analysis/ruffus/ruffus2.7/bin/python
+
+import os
+import argparse
+
+# pass the input and output directories as positional args
+parser = argparse.ArgumentParser()
+parser.add_argument('indir', type=str,
+                    help='directory of the files to be analysed')
+parser.add_argument('outdir', type=str,
+                    help='directory in which files are to be linked',
+                    default='./input.dir')
+args = parser.parse_args()
+
+print args.indir
+
+print args.outdir
+
