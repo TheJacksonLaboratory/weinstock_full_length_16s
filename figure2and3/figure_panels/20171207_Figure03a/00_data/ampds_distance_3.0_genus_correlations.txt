@@ -1,0 +1,17 @@
+Genus	J03630ds_V1_V3	J03631ds_V1_V3	J03632ds_V1_V3	J03644ds_V1_V3	J03630ds_V1_V9	J03631ds_V1_V9	J03632ds_V1_V9	J03644ds_V1_V9
+Akkermansia	1.0	23.0	212.0	571.0				
+Bacteroides	2270.0	1737.0	457.0	443.0	168.0	406.0	38.0	224.0
+Bilophila					0.0	0.0	0.0	4.0
+Catenibacterium	0.0	0.0	0.0	19.0	0.0	0.0	0.0	14.0
+Clostridium	124.0	244.0	147.0	41.0	17.0	16.0	153.0	0.0
+Collinsella	4.0	14.0	0.0	6.0				
+Gemmiger	770.0	844.0	620.0	551.0	1131.0	767.0	708.0	471.0
+Parabacteroides	377.0	459.0	64.0	151.0	46.0	9.0	13.0	62.0
+Paraprevotella	170.0	90.0	413.0	25.0	81.0	30.0	0.0	3.0
+Phascolarctobacterium	73.0	0.0	27.0	48.0				
+Prevotella	0.0	0.0	652.0	1.0	0.0	0.0	1291.0	0.0
+Propionispora	0.0	18.0	0.0	0.0	145.0	250.0	98.0	39.0
+Rikenella					0.0	178.0	78.0	43.0
+Shigella	5.0	1.0	76.0	0.0				
+Syntrophococcus	154.0	119.0	78.0	48.0				
+unclassified	2489.0	1896.0	2581.0	2325.0	3040.0	1972.0	2362.0	2665.0

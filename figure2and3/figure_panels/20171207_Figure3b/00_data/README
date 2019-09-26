@@ -1,0 +1,7 @@
+These are collated information about the relative abundance of bacteroides from the different approaches: 
+      V1-V3, V1-V9, mWGS 
+
+They are the output of the task ### Subtask: Collate mWGS and amplicon data in the original pipeline.
+
+It may be a good idea to check that the number of OTUs in each of these tables corresponds to the number
+of OTUs in the bacteroides species otu fasta file: amp_species_otus.dir/amp_bacteroides.dir/distance_1.0/amp_bacteroides_otus.fasta

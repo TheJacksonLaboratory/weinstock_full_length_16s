@@ -1,0 +1,8 @@
+These files come from: 
+/data/weinstocklab/projects/PROT_protocol_development/PBIL_fullLength16S/analyses/pipelines/analysis_JJ_006
+
+They are the result of running the steps combineV1V3andV1V9GenusCounts() and combineV1V3andV1V9DownSampledGenusCounts()
+from the original full_length_16S pipeline. 
+
+Downsampling was done so that the same number of reads were available for V1V3 and V1V9 samples of the same individual. 
+The number of reads is different across different individuals. 
